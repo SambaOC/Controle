@@ -1,0 +1,169 @@
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+}
+
+
+@font-face {
+	font-family: "policegras";
+	src: url("Raleway-ExtraBold.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "policebase";
+	src: url("raleway-light.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+li {
+	font-family: policebase;
+}
+
+.Gras {
+	font-family: policegras;
+	font-weight: bold;
+	font-size: 11px
+}
+
+p {
+	font-family: policebase;
+	font-size: 10px;
+}	
+
+
+#Filtres {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.fin {
+	font-family: policebase;
+}
+
+.debut {
+	font-family: policegras;
+}
+
+.milieu {
+	font-family: policegras;
+}
+
+h1 {
+	font-family: policegras;
+	font-size: 16px;
+}
+
+h2 {
+	font-family: policegras;
+	font-size: 16px;
+}
+
+#section {
+	display: flex;
+	width: 950px;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+
+.item_hebergement{
+	display: flex;
+	width: 100%
+}
+
+#section_hebergement{
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	justify-content: space-between;
+}
+.item_populaire{
+	display: flex;
+}
+
+body{
+	margin: 50px;
+	max-width: 1440px;
+}
+
+.elt_populaire{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px 0 5px 0;
+}
+
+.text_populaire{
+	width: 140px;
+}
+
+.section_populaire{
+	display: flex;
+	justify-content: space-between;
+}
+
+#elt_top{
+	display: flex;
+	justify-content: space-between;
+	width: 910px;
+	margin: 0 0 0 40px;
+}
+
+.item_top{
+	margin: 0 0 0 40px;
+}
+
+#lien{
+	display:flex;
+	justify-content: space-between;
+	width: 300px;
+}
+
+#body_hebergement{
+	padding: 38px;
+	background-color:silver;
+	border-radius: 12px;
+}
+
+#body_populaire{
+	padding: 38px;
+	background-color: silver;
+	border-radius: 12px;
+}
+
+.elt_hebergement{
+ margin: 5px;
+ border-radius: 17px;
+ height: 130px;
+}
+
+nav ul#lien li.elt_lien1 a{
+	text-decoration: none;
+	font-family: policebase;
+	color: blue;
+}
+
+nav ul#lien li.elt_lien2 a{
+	text-decoration: none;
+	font-family: policebase;
+	color: black;
+}
+
+nav ul#lien li.elt_lien3 a{
+	text-decoration: none;
+	font-family: policegras;
+	color: blue;
+}
+
+header ul#Filtres li.elt_filtres{
+	 font-family: policegras;
+}
+
+
+
