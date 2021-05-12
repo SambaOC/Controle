@@ -133,14 +133,20 @@ body{
 
 #body_populaire{
 	padding: 38px;
-	background-color: silver;
+	background-color: #F2F2F2;
 	border-radius: 12px;
 }
 
 .elt_hebergement{
- margin: 5px;
- border-radius: 17px;
- height: 130px;
+	 margin: 5px;
+	 border-radius: 10px;
+	 width: 140px;
+	 height: 130px;
+	 background-color: white;
+}
+
+.text_hebergement{
+
 }
 
 nav ul#lien li.elt_lien1 a{
@@ -165,5 +171,9 @@ header ul#Filtres li.elt_filtres{
 	 font-family: policegras;
 }
 
-
+.box_activités{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
